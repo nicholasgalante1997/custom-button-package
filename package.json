@@ -1,0 +1,26 @@
+{
+  "name": "@nickgdev/custom-button-package",
+  "module": "/dist/custom-button",
+  "version": "1.0.0",
+  "description": "A button component for ReactJS Web Apps",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasgalante1997/custom-button-package.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Nicholas Galante",
+    "email": "nicholasgalante1997@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicholasgalante1997/custom-button-package/issues"
+  },
+  "homepage": "https://github.com/nicholasgalante1997/custom-button-package#readme"
+}
